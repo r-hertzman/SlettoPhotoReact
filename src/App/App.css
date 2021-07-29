@@ -1,0 +1,49 @@
+ /*Mobile First*/
+  
+  /*===== universal styles =====*/
+  
+  html{
+    font-size: 16px;
+    height: 100%;
+  }
+  
+  body{
+    height: 100vh;
+    margin: 0px !important;
+    padding: 0px !important;
+    font-family: 'Raleway', sans-serif;
+    overflow: auto;
+    font-weight: 200;
+  }
+  
+  img{
+    max-width: 100%;
+  }
+ 
+  
+  /* footer */
+  
+  footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    border-top: solid black 1px;
+    border-top-width: 100%;
+    color: black;
+    max-height: 25px;
+  }
+  
+  .footer {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+  
+  .copyright{
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+    font-size: .5em;
+  }

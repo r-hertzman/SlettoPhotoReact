@@ -1,0 +1,71 @@
+.NavBar{
+    border-bottom: solid black 1px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .nav {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .navItem {
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+  }
+  
+  .navItem:link, 
+  .navItem:visited {
+    color: black;
+  }
+  
+  .navItem:hover {
+    text-shadow: 4px 4px #737373;
+  }
+
+    /*=================================================
+  Media Queries
+  ==================================================*/
+  /*--- Tablet header resize ---*/
+  @media only screen and (min-width: 481px){
+    .NavBar h1{
+      font-size: 2em;
+    }
+  }
+  
+  /*---Small Screens + Laptops---*/
+  @media only screen and (min-width: 769px){
+    /*--- header resize/format ---*/
+    #name{
+      width: 50%;
+    }
+  
+    .nav{
+      width: 100%;
+      border-top: none;
+    }
+  }
+  
+  /*---Desktop + Large Screens---*/
+  @media only screen and (min-width: 1026px){
+    /*-- Header resize --*/
+    .NavBar{
+      justify-content: space-between;
+    }
+  
+    #name{
+      width: 37%;
+      max-width: 170px;
+      justify-content: flex-start;
+    }
+  
+    .nav{
+      width: 100%;
+    }
+  }

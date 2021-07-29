@@ -1,0 +1,31 @@
+.content-wrapper{
+    flex: 1;
+  }
+  .aboutAndy {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .aboutAndy h2{
+    font-weight: 200;
+  }
+  
+  .headShot {
+    height: auto;
+    max-width: 200px;
+    margin-top: 39px;
+  }
+  
+  .headShot img{
+    border-radius: 50%;
+  }
+  
+  .about {
+    padding: 0;
+    text-align: center;
+    margin: 0 15px 39px;
+    width: 70%;
+    text-align: justify;
+  }

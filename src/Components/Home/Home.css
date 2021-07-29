@@ -1,0 +1,8 @@
+.heroImg {
+    background-image: url('../../Imgs/mitchOptimater.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+  }

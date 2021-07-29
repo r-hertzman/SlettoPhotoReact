@@ -1,0 +1,77 @@
+.emailWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-flow: column wrap;
+    max-width: 100%;
+    flex: 1;
+    margin: 45px 15px;
+    box-sizing: border-box;
+    padding-right: 15px;;
+  }
+  
+.contactText{
+    width: 100%;
+    margin: 15px;
+}
+  
+.emailWrapper h1{
+    margin: 0;
+    width: 100%;
+    font-weight: 300;
+}
+  
+.emailWrapper h2{
+    margin: 0;
+    color: #737373;
+    width: 100%;
+    font-weight: 200;
+  }
+  
+  #form{
+    width: 100%;
+    margin: 15px;
+    box-sizing: border-box;
+  }
+  
+  .emailForm{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    flex-basis: 100%;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding-right: 15px;
+    font-weight: 200;
+  
+  }
+  
+  .emailForm input{
+    width: 100%;
+    box-sizing: border-box;
+    border-bottom: 1px black solid;
+    outline: none;
+  }
+  
+  .emailText{
+    width: 99.5%;
+    height: 100px;
+    border: 1px black solid;
+    outline: none;
+    resize: none;
+  }
+  
+  .name,
+  .email{
+    width: 100%;
+    border: none;
+  }
+  
+  .submitBtn{
+    border: 1px black solid;
+    background-color: white;
+  }
+  
+  .submitBtn:hover{
+    text-shadow: 2px 2px #737373;
+  }
